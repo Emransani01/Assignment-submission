@@ -1,3 +1,66 @@
-body{
-    background-color: bisque;
+            /* nav-start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+} 
+ 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f172a;
+    padding: 10px 100px;
 }
+.logo{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    color: white;
+}
+.logo-text h2{
+    font-size: 22px;
+}
+
+.logo-text p{
+    color: gray;
+    font-size: 14px;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    background: #1d4ed8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+    align-items:center;
+}
+.icon:hover{
+    background-color: #008c9e;
+}
+.center a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size:  18px;
+    transition: 0.3s;
+}
+.center a:hover{
+    color: orange;
+}
+.submit-btn{
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.submit-btn:hover{
+    background-color: #008c9e;
+}
+            /* nab-end */
